@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<title>Laravel From Scratch Blog</title>
+<meta charset="UTF-8" />
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+<body style="font-family:Open Sans, sans-serif">
+    <section>
+        <nav class="px-6 py-8 md:flex md:justify-between items-center">
+            <div>
+                <a href="/">
+                    <img src="./images/logo.svg" alt="laracast logo image" width="165" height="16">
+                </a>
+            </div>
+
+            <div class="mt-6 md:mt-0 md:inline-flex items-center">
+                <a href="#" class="ml-0 md:ml-3 rounded-full text-xl md:text-sm font-semibold uppercase">Home Page</a>
+
+                <div class="mt-4 md:mt-0">
+                    <a href="#" class="ml-0 md:ml-3 rounded-full float-bottom md:float-none text-sm font-semibold bg-blue-400 px-1 md:px-5 py-2 md:py-2.5 text-white uppercase">
+                        Subscribe for Updates
+                    </a>
+                </div>
+            </div>
+
+
+        </nav>
+
+        <header class="mx-auto mt-4 md:mt-10 text-center max-w-2xl">
+            <div class="">
+                <h1 class="text-4xl">
+                    Latest <span class="text-blue-500">Laravel From Scratch</span> News
+                </h1>
+
+                <h2 class="py-2">By Lary Laracore <img class="inline-flex " src="./images/lary-head.svg"></h2>
+
+                <p class="px-5 mt-12">
+                    Lorem ipsum dfsio syhe hxsis uye eyusgbf yed dyw uwew e7yd eygde deye d segh ed,dgy dghwy khdsa.
+                </p>
+            </div>
+            <div class="md:inline-flex py-8">
+                <select name="" id="" class="rounded-2xl px-3 py-2 bg-gray-200 mx-2">
+                    <option value="">Category</option>
+                    <option value="">High</option>
+                    <option value="">Low410</option>
+                </select>
+
+                <select name="" id="" class="rounded-2xl px-3 py-2 bg-gray-200 mx-2">
+                    Other Filters
+                    <option value="">Other Filters</option>
+                    <option value="">High</option>
+                    <option value="">Low410</option>
+                </select>
+
+                <form method="" name="" class="rounded-2xl mt-6 md:mt-0 px-3 py-2 bg-gray-200 mx-2 pr-16">
+                    Find Something
+                </form>
+            </div>
+        </header>
+
+        <main class="max-w-6xl mx-auto mt-6 md:mt-20 space-y-8">
+            <article class="hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                <div class="px-6 py-6 md:flex">
+                    <div class="flex-1 md:mr-10 ">
+                        <img src="./images/illustration-1.png" alt="picture" class="rounded-xl">
+                    </div>
+
+                    <div class="flex-1 flex flex-col justify-between">
+                        <header>
+                            <div class="space-x-3 mt-4 md:mt-0">
+                                <a href="#" class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs font-semibold uppercase">techniques</a>
+                                <a href="#" class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs font-semibold uppercase">updates</a>
+                            </div>
+                            <div class="mt-4">
+                                <h1 class="text-3xl">This is a big title and it will look great on two or even three lines.Woohoo!</h1>
+                                <span class="mt-2 block text-gray-400 text-xs">
+                                    Published <time>1 day ago</time>
+                                </span>
+                            </div>
+                        </header>
+
+                        <div class="text-sm mt-2">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique ex eu velit vestibulum hendrerit. Cras sit amet mattis justo. Sed in vehicula odio. Pellentesque tempor augue nec fringilla fermentum.</p>
+                            <p class="mt-4">Duis efficitur risus pharetra nisi mattis hendrerit. Donec eu nunc est.</p>
+                        </div>
+
+                        <footer class="flex justify-between items-center mt-8">
+                            <div class="flex items-center text-sm">
+                                <img src="./images/lary-avatar.svg" alt="Lary Avatar">
+                                <div>
+                                    <h5 class="font-bold">Lary Laracore</h5>
+                                    <h6>Mascot at Laracasts</h6>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <a href="#" class="text-xs font-semibold bg-gray-300 rounded-full py-2 px-6">Read More</a>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+
+            <div class="md:grid md:grid-cols-2">
+                <article class="hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                    <div class="px-6 py-6">
+                        <div>
+                            <img src="./images/illustration-1.png" alt="picture" class="rounded-xl">
+                        </div>
+    
+                        <div class="mt-8 flex flex-col justify-between">
+                            <header>
+                                <div class="space-x-3">
+                                    <a href="#" class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs font-semibold uppercase">techniques</a>
+                                    <a href="#" class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs font-semibold uppercase">updates</a>
+                                </div>
+                                <div class="mt-4">
+                                    <h1 class="text-3xl">This is a big title and it will look great on two or even three lines.Woohoo!</h1>
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Published <time>1 day ago</time>
+                                    </span>
+                                </div>
+                            </header>
+    
+                            <div class="text-sm mt-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique ex eu velit vestibulum hendrerit. Cras sit amet mattis justo. Sed in vehicula odio. Pellentesque tempor augue nec fringilla fermentum.</p>
+                                <p class="mt-4">Duis efficitur risus pharetra nisi mattis hendrerit. Donec eu nunc est.</p>
+                            </div>
+    
+                            <footer class="flex justify-between items-center mt-8">
+                                <div class="flex items-center text-sm">
+                                    <img src="./images/lary-avatar.svg" alt="Lary Avatar">
+                                    <div>
+                                        <h5 class="font-bold">Lary Laracore</h5>
+                                        <h6>Mascot at Laracasts</h6>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <a href="#" class="text-xs font-semibold bg-gray-300 rounded-full py-2 px-6">Read More</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                    <div class="px-6 py-6">
+                        <div>
+                            <img src="./images/illustration-2.png" alt="picture" class="rounded-xl">
+                        </div>
+    
+                        <div class="mt-8 flex flex-col justify-between">
+                            <header>
+                                <div class="space-x-3">
+                                    <a href="#" class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs font-semibold uppercase">techniques</a>
+                                    <a href="#" class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs font-semibold uppercase">updates</a>
+                                </div>
+                                <div class="mt-4">
+                                    <h1 class="text-3xl">This is a big title and it will look great on two or even three lines.Woohoo!</h1>
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Published <time>1 day ago</time>
+                                    </span>
+                                </div>
+                            </header>
+    
+                            <div class="text-sm mt-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique ex eu velit vestibulum hendrerit. Cras sit amet mattis justo. Sed in vehicula odio. Pellentesque tempor augue nec fringilla fermentum.</p>
+                                <p class="mt-4">Duis efficitur risus pharetra nisi mattis hendrerit. Donec eu nunc est.</p>
+                            </div>
+    
+                            <footer class="flex justify-between items-center mt-8">
+                                <div class="flex items-center text-sm">
+                                    <img src="./images/lary-avatar.svg" alt="Lary Avatar">
+                                    <div>
+                                        <h5 class="font-bold">Lary Laracore</h5>
+                                        <h6>Mascot at Laracasts</h6>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <a href="#" class="text-xs font-semibold bg-gray-300 rounded-full py-2 px-6">Read More</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="md:grid md:grid-cols-3">
+                <article class="hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                    <div class="px-6 py-6">
+                        <div>
+                            <img src="./images/illustration-3.png" alt="picture" class="rounded-xl">
+                        </div>
+    
+                        <div class="mt-8 flex flex-col justify-between">
+                            <header>
+                                <div class="space-x-3">
+                                    <a href="#" class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs font-semibold uppercase">techniques</a>
+                                    <a href="#" class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs font-semibold uppercase">updates</a>
+                                </div>
+                                <div class="mt-4">
+                                    <h1 class="text-3xl">This is a big title and it will look great on two or even three lines.Woohoo!</h1>
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Published <time>1 day ago</time>
+                                    </span>
+                                </div>
+                            </header>
+    
+                            <div class="text-sm mt-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique ex eu velit vestibulum hendrerit. Cras sit amet mattis justo. Sed in vehicula odio. Pellentesque tempor augue nec fringilla fermentum.</p>
+                                <p class="mt-4">Duis efficitur risus pharetra nisi mattis hendrerit. Donec eu nunc est.</p>
+                            </div>
+    
+                            <footer class="flex justify-between items-center mt-8">
+                                <div class="flex items-center text-sm">
+                                    <img src="./images/lary-avatar.svg" alt="Lary Avatar">
+                                    <div>
+                                        <h5 class="font-bold">Lary Laracore</h5>
+                                        <h6>Mascot at Laracasts</h6>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <a href="#" class="text-xs font-semibold bg-gray-300 rounded-full py-2 px-6">Read More</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                    <div class="px-6 py-6">
+                        <div>
+                            <img src="./images/illustration-4.png" alt="picture" class="rounded-xl">
+                        </div>
+    
+                        <div class="mt-8 flex flex-col justify-between">
+                            <header>
+                                <div class="space-x-3">
+                                    <a href="#" class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs font-semibold uppercase">techniques</a>
+                                    <a href="#" class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs font-semibold uppercase">updates</a>
+                                </div>
+                                <div class="mt-4">
+                                    <h1 class="text-3xl">This is a big title and it will look great on two or even three lines.Woohoo!</h1>
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Published <time>1 day ago</time>
+                                    </span>
+                                </div>
+                            </header>
+    
+                            <div class="text-sm mt-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique ex eu velit vestibulum hendrerit. Cras sit amet mattis justo. Sed in vehicula odio. Pellentesque tempor augue nec fringilla fermentum.</p>
+                                <p class="mt-4">Duis efficitur risus pharetra nisi mattis hendrerit. Donec eu nunc est.</p>
+                            </div>
+    
+                            <footer class="flex justify-between items-center mt-8">
+                                <div class="flex items-center text-sm">
+                                    <img src="./images/lary-avatar.svg" alt="Lary Avatar">
+                                    <div>
+                                        <h5 class="font-bold">Lary Laracore</h5>
+                                        <h6>Mascot at Laracasts</h6>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <a href="#" class="text-xs font-semibold bg-gray-300 rounded-full py-2 px-6">Read More</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                    <div class="px-6 py-6">
+                        <div>
+                            <img src="./images/illustration-5.png" alt="picture" class="rounded-xl">
+                        </div>
+    
+                        <div class="mt-8 flex flex-col justify-between">
+                            <header>
+                                <div class="space-x-3">
+                                    <a href="#" class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs font-semibold uppercase">techniques</a>
+                                    <a href="#" class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs font-semibold uppercase">updates</a>
+                                </div>
+                                <div class="mt-4">
+                                    <h1 class="text-3xl">This is a big title and it will look great on two or even three lines.Woohoo!</h1>
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        Published <time>1 day ago</time>
+                                    </span>
+                                </div>
+                            </header>
+    
+                            <div class="text-sm mt-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tristique ex eu velit vestibulum hendrerit. Cras sit amet mattis justo. Sed in vehicula odio. Pellentesque tempor augue nec fringilla fermentum.</p>
+                                <p class="mt-4">Duis efficitur risus pharetra nisi mattis hendrerit. Donec eu nunc est.</p>
+                            </div>
+    
+                            <footer class="flex justify-between items-center mt-8">
+                                <div class="flex items-center text-sm">
+                                    <img src="./images/lary-avatar.svg" alt="Lary Avatar">
+                                    <div>
+                                        <h5 class="font-bold">Lary Laracore</h5>
+                                        <h6>Mascot at Laracasts</h6>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <a href="#" class="text-xs font-semibold bg-gray-300 rounded-full py-2 px-6">Read More</a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </main>
+
+        
+        <footer class="bg-gray-100 border border-black border-opacity-5 rounded-xl text-center mt-10 pb-10">
+            <img src="./images/lary-newsletter-icon.svg" alt="Larry Icon" class="mx-auto pt-10">
+            <h2>Stay in touch with the latest posts</h2>
+            <p>Promise to keep the inbox clean. No bugs.</p>
+
+            <div class="mt-10">
+                <div class="md:relative inline-block mx-auto md:bg-gray-300 p-3 rounded-full">
+                    
+                    <form method="POST" action="#" class="md:flex items-center">
+                        <label for="email" class="inline-flex ml-8 md:ml-0">
+                            <img src="./images/mailbox-icon.svg" alt="mail">
+                        </label>
+                        <input id="email" class="bg-transparent pl-6 focus-within:outline-none" type="text" placeholder="Your email address">
+
+                        <button type="submit" class="mt-6 md:mt-0 bg-blue-500 hover:bg-blue-600 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+</body>
